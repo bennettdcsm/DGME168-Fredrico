@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+	<title>contact - grdn studio</title>
+	
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<style>
+	
+		.body-container {
+			margin-top: 5rem;
+		}		
+		/* Style inputs with type="text", select elements and textareas */
+label {
+	color:#344E41		
+}		
+		
+		
+input[type=text], select, textarea {
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #DAD7CD; /* Gray border */
+  border-radius: 7px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: #eff1ed;
+	font-family: "Michroma", sans-serif;
+	color:#344E41;
+	font-size:1rem;
+	padding:1rem 2rem;
+	border:2px solid #3A5A40;
+	border-radius: 7px;
+	transition:0.3s;
+ 	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #A3B18A;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #eff1ed;
+  padding: 20px;
+}
+	
+	</style>
+	
+</head>
+
+<body>
+	
+<!--  HEADER  -->		
+	
+	
+	
+	<nav>
+	<div class="navbar">
+		<div class="logo"> 
+			<a href="index.html" class="logo">grdn studio</a> 
+		</div>
+		
+		<label for="check" class="checkbox">
+			<i class="ri-menu-line"></i>		
+		</label>
+		<input type="checkbox" name="check" id="check">
+		<ul>
+			<li><a href="work.html">work</a></li>
+			<li><a href="play.html">play</a></li>
+			<li><a href="about.html">about</a></li>
+			<li><a href="images/s25RESUME.pdf" target="_blank">resume</a></li>
+		</ul>
+	</div> 
+	</nav>	
+	
+<!--  MAIN  -->	
+	
+<main>	
+	<section class="body">
+		<div class="body-container">
+			<div class="content">
+				<div class="container">
+  <form action="action_page.php">
+<p style="text-align: center; font-family: 'Michroma', sans-serif; color:#344E41">got something in mind?</p>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+		<option value="canada">Canada</option>
+		<option value="brasil">Brasil</option>
+		<option value="uk">United Kingdom</option>
+		<option value="australia">Australia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+			
+			</div>
+		</div>
+	</section>
+</main>
+		
+<!--  FOOTER  -->	
+	
+	<footer class="footer">
+		<div class="email">
+			<a href="mailto:fredericocandrade@gmail.com" target="_blank">fredericocandrade@gmail.com</a>
+		</div>
+		
+		<div class="social">
+			<a href="https://www.instagram.com/grdn.co/" target="_blank">instagram</a>
+			<a href="www.linkedin.com/in/frederico-andrade-5073a8270" target="_blank">linkedin</a>
+			<a href="https://flic.kr/s/aHBqjAdkx2" target="_blank">flickr</a>
+		</div>
+		
+	</footer>
+
+</body>
+</html>
